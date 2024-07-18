@@ -8,7 +8,7 @@ _____________________________________________________
 LRU是一种缓存淘汰策略，当系统的缓存达到上限时优先淘汰最近最久未使用的数据，以提高数据的命中率并降低系统负载。
 _____________________________________________________
 ![LRU](https://github.com/user-attachments/assets/48edde87-470a-44f3-8388-10d4bdab57f6)
-# [Sieve](https://cachemon.github.io/SIEVE-website/) ([NSDI24](https://www.usenix.org/conference/nsdi24/presentation/zhang-yazhuo))
+# Sieve ([NSDI24](https://www.usenix.org/conference/nsdi24/presentation/zhang-yazhuo))
 - 这是一种简单、高效、快速和可扩展的缓存淘汰算法，利用了“惰性提升”和 “快速降级” （Lazy promotion and Quick demotion）。
 - Sieve的高效率来自于逐渐淘汰掉不受欢迎的数据。
 - 与LRU和FIFO不同，Sieve需要多维护一个名为“手”的指针和一个额外的字段“visited”。
